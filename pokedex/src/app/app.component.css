@@ -1,0 +1,22 @@
+.monsters-list-wrapper{
+    position: relative;
+    text-align: center;
+}
+
+#monsters-list{
+    padding: 0;
+}
+
+#monsters-list>app-pokemon-list{
+    margin: 10px;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    list-style-type: none;
+    cursor: pointer;
+    z-index: 20000;
+}
